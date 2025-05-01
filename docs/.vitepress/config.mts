@@ -46,6 +46,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      { text: '导航页', link: '/nav/index' },
       { text: '学习', link: '/study/Java/' },
       { text: '关于作者', link: '/about/' }
     ],
