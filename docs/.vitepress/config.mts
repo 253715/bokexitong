@@ -61,6 +61,7 @@ export default defineConfig({
         {
           //分组标题
           text: '指南',
+          collapsed: true,
           items: [
             { text: '前言', link: '/preface' },
             { text: '快速上手', link: '/getting-started' },
