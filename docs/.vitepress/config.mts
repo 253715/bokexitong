@@ -54,6 +54,23 @@ export default defineConfig({
         icon: 'github',
         link: 'https://github.com/253715/bokexitong'
       }
-    ]
+    ],
+
+      //侧边栏
+      sidebar: [
+        {
+          //分组标题
+          text: '指南',
+          items: [
+            { text: '前言', link: '/preface' },
+            { text: '快速上手', link: '/getting-started' },
+            { text: '配置', link: '/configuration' },
+            { text: '页面', link: '/page' },
+            { text: 'Frontmatter', link: '/frontmatter' },
+            { text: 'Markdown', link: '/markdown' },
+            { text: '静态部署', link: '/assets' },
+          ],
+        },
+      ],
   }
 })
