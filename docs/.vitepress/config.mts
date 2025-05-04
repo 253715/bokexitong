@@ -46,7 +46,6 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '导航页', link: '/nav/index' },
       { text: '学习', link: '/study/Java/' },
       { text: '关于作者', link: '/about/' }
     ],
@@ -57,23 +56,23 @@ export default defineConfig({
       }
     ],
 
-      //侧边栏
-      sidebar: [
-        {
-          //分组标题
-          text: '指南',
-          collapsed: true,
-          items: [
-            { text: '前言', link: '/preface' },
-            { text: '快速上手', link: '/getting-started' },
-            { text: '配置', link: '/configuration' },
-            { text: '页面', link: '/page' },
-            { text: 'Frontmatter', link: '/frontmatter' },
-            { text: 'Markdown', link: '/markdown' },
-            { text: '静态部署', link: '/assets' },
-          ],
-        },
-      ],
+      // //侧边栏
+      // sidebar: [
+      //   {
+      //     //分组标题
+      //     text: '指南',
+      //     collapsed: true,
+      //     items: [
+      //       { text: '前言', link: '/preface' },
+      //       { text: '快速上手', link: '/getting-started' },
+      //       { text: '配置', link: '/configuration' },
+      //       { text: '页面', link: '/page' },
+      //       { text: 'Frontmatter', link: '/frontmatter' },
+      //       { text: 'Markdown', link: '/markdown' },
+      //       { text: '静态部署', link: '/assets' },
+      //     ],
+      //   },
+      // ],
 
      
   }
