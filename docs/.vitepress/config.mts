@@ -46,7 +46,14 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '学习', link: '/study/Java/' },
+      { text: 'Java',
+        items:[
+          {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
+          {text:'SpringBoot',link:'/Java学习/后端/SpringBoot'},
+          {text:'Java项目实战',link:'/Java学习/项目实战/项目实战'},
+        ]
+      },
+        
       { text: '关于作者', link: '/about/' }
     ],
     socialLinks: [
