@@ -87,7 +87,7 @@ const blogTheme = getThemeConfig({
       {
         type: 'button',
         content: '作者博客',
-        link: 'https://sugarat.top'
+        link: 'https://www.xiaokaizrk.cn/'
       },
       {
         type: 'button',
