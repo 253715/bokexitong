@@ -54,7 +54,21 @@ export default defineConfig({
         ]
       },
         
-      { text: '关于作者', link: '/about/' }
+      { text: 'Python',
+        items:[
+          {text:'Python学习路线',link:'/Java学习/后端/Java学习'},
+          {text:'爬虫',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+        ]
+      },
+
+      { text: '大数据',
+        items:[
+          {text:'大数据学习路线',link:'/Java学习/后端/Java学习'},
+          {text:'项目实战',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+        ]
+      },
+
+      { text: 'JonQuet', link: '/about/' }
     ],
     socialLinks: [
       {
