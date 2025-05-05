@@ -103,7 +103,7 @@ export default defineConfig({
         ]
       },
 
-      { text: '小凯', link: '/about/' }
+      { text: '小凯', link: '/aboutme/' }
     ],
     socialLinks: [
       {
