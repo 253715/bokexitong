@@ -60,7 +60,6 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '导航页', link: '/nav/index.html' },
       { text: 'Java',
         items:[
           {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
