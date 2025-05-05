@@ -27,6 +27,8 @@ const blogTheme = getThemeConfig({
   // markdown 图表支持（会增加一定的构建耗时）
   // mermaid: true
 
+  
+
   // 页脚
   footer: {
     // message 字段支持配置为HTML内容，配置多条可以配置为数组
@@ -110,7 +112,22 @@ const blogTheme = getThemeConfig({
         path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
       }
     ]
+  },
+  // 评论
+  comment: {
+    type: 'giscus',
+    options: {
+      repo: 'ATQQ/sugar-blog',
+      repoId: 'MDEwOlJlcG9zaXRvcnkyNDEyNDUyOTk',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDODmEcc84COVc6',
+      inputPosition: 'top'
+    },
+    mobileMinify: true
   }
+
+
+
 })
 
 export { blogTheme }

@@ -15,6 +15,13 @@ import { blogTheme } from './blog-theme'
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
+
+ 
+
+  // 站点地图
+  sitemap: {
+    hostname: 'https://www.xiaokaizrk.cn/',
+  },
   // base,
   lang: 'zh-cn',
   title: '爱学习的小凯',
@@ -42,6 +49,8 @@ export default defineConfig({
       next: '下一篇',
     },
 
+    
+
     // 设置logo
     logo: '/logo.png',
     // editLink: {
@@ -56,14 +65,8 @@ export default defineConfig({
         items:[
           {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
           {text:'SpringBoot',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+          {text:'Vue',link:'/Java学习/后端/SpringBoot/SpringBoot'},
           {text:'Java项目实战',link:'/Java学习/项目实战/项目实战'},
-        ]
-      },
-        
-      { text: 'Python',
-        items:[
-          {text:'Python学习路线',link:'/Java学习/后端/Java学习'},
-          {text:'爬虫',link:'/Java学习/后端/SpringBoot/SpringBoot'},
         ]
       },
 
@@ -71,6 +74,13 @@ export default defineConfig({
         items:[
           {text:'大数据学习路线',link:'/Java学习/后端/Java学习'},
           {text:'项目实战',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+        ]
+      },
+
+      { text: 'Python',
+        items:[
+          {text:'Python学习路线',link:'/Java学习/后端/Java学习'},
+          {text:'爬虫',link:'/Java学习/后端/SpringBoot/SpringBoot'},
         ]
       },
 
@@ -82,25 +92,6 @@ export default defineConfig({
         link: 'https://github.com/253715/bokexitong'
       }
     ],
-
-      // //侧边栏
-      // sidebar: [
-      //   {
-      //     //分组标题
-      //     text: '指南',
-      //     collapsed: true,
-      //     items: [
-      //       { text: '前言', link: '/preface' },
-      //       { text: '快速上手', link: '/getting-started' },
-      //       { text: '配置', link: '/configuration' },
-      //       { text: '页面', link: '/page' },
-      //       { text: 'Frontmatter', link: '/frontmatter' },
-      //       { text: 'Markdown', link: '/markdown' },
-      //       { text: '静态部署', link: '/assets' },
-      //     ],
-      //   },
-      // ],
-
      
   }
 })
