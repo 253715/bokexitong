@@ -63,7 +63,7 @@ export default defineConfig({
       { text: 'Java',
         items:[
           {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
-          {text:'SpringBoot',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+          {text:'SpringBoot',link:'/Java学习/后端/Springboot/SpringBoot第一篇'},
           {text:'Vue',link:'/Java学习/后端/SpringBoot/SpringBoot'},
           {text:'Java项目实战',link:'/Java学习/项目实战/项目实战'},
         ]
