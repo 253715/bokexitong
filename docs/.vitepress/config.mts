@@ -83,7 +83,7 @@ export default defineConfig({
         ]
       },
 
-      { text: 'JonQuet', link: '/about/' }
+      { text: '小凯', link: '/about/' }
     ],
     socialLinks: [
       {
