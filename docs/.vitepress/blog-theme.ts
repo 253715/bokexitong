@@ -66,6 +66,23 @@ const blogTheme = getThemeConfig({
         'https://vitepress.dev/vitepress-logo-large.webp',
       url: 'https://vitepress.dev/',
     },
+    {
+      nickname: 'SlovinG',
+      des: 'Vite & Vue Powered Static Site Generator',
+      avatar:
+        'https://sloving.top/img/head.png',
+      url: 'https://sloving.top/',
+    },
+
+    {
+      nickname: '沐风的个人空间',
+      des: 'Vite & Vue Powered Static Site Generator',
+      avatar:
+        'https://cdn.imufeng.cn/mblog/avatar-1.jpg',
+      url: 'https://www.imufeng.cn/',
+    },
+
+    
   ],
 
   // 公告
