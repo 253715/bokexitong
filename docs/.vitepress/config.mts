@@ -3,6 +3,9 @@ import { defineConfig } from 'vitepress'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
 
+// 导入时间线
+import timeline from "vitepress-markdown-timeline";
+
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
@@ -16,7 +19,15 @@ export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
 
- 
+  markdown: { 
+    //行号显示
+    lineNumbers: true, 
+
+    //时间线 //
+    config: (md) => {
+      md.use(timeline);
+    },
+  },
 
   // 站点地图
   sitemap: {
@@ -64,8 +75,9 @@ export default defineConfig({
         items:[
           {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
           {text:'SpringBoot',link:'/Java学习/后端/Springboot/SpringBoot第一篇'},
-          {text:'Vue',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+          {text:'Vue',link:'/Java学习/后端/Vue/vue'},
           {text:'Java项目实战',link:'/Java学习/项目实战/项目实战'},
+          {text:'模板教程',link:'/Java学习/项目实战/项目实战'},
         ]
       },
 
@@ -80,6 +92,14 @@ export default defineConfig({
         items:[
           {text:'Python学习路线',link:'/Java学习/后端/Java学习'},
           {text:'爬虫',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+        ]
+      },
+
+      { text: '知识库笔记',
+        items:[
+          {text:'博客',link:'/Java学习/搭建静态博客'},
+          {text:'Obsidian',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+          {text:'Markdown',link:'/Markdown/时间线'},
         ]
       },
 

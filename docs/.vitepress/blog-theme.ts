@@ -66,13 +66,23 @@ const blogTheme = getThemeConfig({
         'https://vitepress.dev/vitepress-logo-large.webp',
       url: 'https://vitepress.dev/',
     },
+
     {
-      nickname: 'SlovinG',
-      des: 'Vite & Vue Powered Static Site Generator',
+      nickname: 'Vitepress中文教程',
+      des: 'Vitepress中文教程',
       avatar:
-        'https://sloving.top/img/head.png',
-      url: 'https://sloving.top/',
+        'https://vitepress.dev/vitepress-logo-large.webp',
+      url: 'https://vitepress.yiov.top/',
     },
+
+    {
+      nickname: '茂茂物语',
+      des: '知识是进步的阶梯，争取每天都有知识点更新，有导航页的vitepress博客，欢迎大家关注',
+      avatar:
+        'https://notes.fe-mm.com/logo.png',
+      url: 'https://notes.fe-mm.com/',
+    },
+
 
     {
       nickname: '沐风的个人空间',
