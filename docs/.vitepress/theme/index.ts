@@ -6,6 +6,9 @@ import BlogTheme from '@sugarat/theme'
 // // // // 自定义主题色
 // // // // import './user-theme.css'
 export default BlogTheme
+/* style/index.css */
+// 引入样式
+import './style/index.css'
 
 
 // .vitepress/theme/index.ts
