@@ -101,6 +101,16 @@ const blogTheme = getThemeConfig({
     ],
     duration: 0
   },
+
+  // 看板娘
+  oml2d: {
+    mobileDisplay: true,
+    models: [
+      {
+        path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json'
+      }
+    ]
+  }
 })
 
 export { blogTheme }

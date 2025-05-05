@@ -37,6 +37,11 @@ export default defineConfig({
     sidebarMenuLabel: '相关文章',
     lastUpdatedText: '上次更新于',
 
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
+
     // 设置logo
     logo: '/logo.png',
     // editLink: {
@@ -46,6 +51,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      { text: '导航页', link: '/nav/index.html' },
       { text: 'Java',
         items:[
           {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
