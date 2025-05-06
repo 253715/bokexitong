@@ -116,7 +116,7 @@ export default defineConfig({
 
       { text: '大数据',
         items:[
-          {text:'大数据学习路线',link:'/Java学习/后端/Java学习'},
+          {text:'大数据学习路线',link:'/大数据/大数据学习路线'},
           {text:'项目实战',link:'/Java学习/后端/SpringBoot/SpringBoot'},
         ]
       },
