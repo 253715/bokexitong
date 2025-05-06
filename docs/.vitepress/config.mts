@@ -23,6 +23,11 @@ export default defineConfig({
     //行号显示
     lineNumbers: true, 
 
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    },
+
     //时间线 //
     config: (md) => {
       md.use(timeline);
