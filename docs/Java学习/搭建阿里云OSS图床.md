@@ -7,6 +7,7 @@ top: 2
 recommend: ['博客',2]
 title: 🔧 搭建阿里云oss图床
 ---
+# 搭建阿里云OSS图床
 ## 搭建图床
 
 > 原来使用的是gitee，然后搞了七牛云，cloudf，github等等，折腾了一下午都没搞好，一生气搞了阿里云oss了
