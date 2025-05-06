@@ -120,12 +120,31 @@ export default defineConfig({
           {text:'项目实战',link:'/Java学习/后端/SpringBoot/SpringBoot'},
         ]
       },
-
-      { text: 'Python',
-        items:[
-          {text:'Python学习路线',link:'/Java学习/后端/Java学习'},
-          {text:'爬虫',link:'/Java学习/后端/SpringBoot/SpringBoot'},
-        ]
+      {
+        text: 'Python',
+        items: [
+          {
+            // 分组标题1
+            text: '基础知识',
+            items: [
+              { text: 'Python学习路线', link: '/Java学习/后端/Java学习' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '爬虫',
+            items: [
+              { text: '爬虫学习', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '数据分析',
+            items: [
+              { text: '数据分析', link: '/Markdown/时间线' },
+            ],
+          },
+        ],
       },
 
 
