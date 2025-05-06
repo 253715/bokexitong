@@ -76,14 +76,42 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Java',
-        items:[
-          {text:'Java学习路线',link:'/Java学习/后端/Java学习'},
-          {text:'SpringBoot',link:'/Java学习/后端/Springboot/SpringBoot第一篇'},
-          {text:'Vue',link:'/Java学习/后端/Vue/vue'},
-          {text:'Java项目实战',link:'/Java学习/项目实战/项目实战'},
-          {text:'模板教程',link:'/Java学习/项目实战/项目实战'},
-        ]
+
+        
+      {
+        text: 'Java',
+        items: [
+          {
+            // 分组标题1
+            text: '基础知识',
+            items: [
+              { text: 'Java学习路线', link: '/Java学习/后端/Java学习' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '框架学习',
+            items: [
+              { text: 'SpringBoot', link: '/Java学习/后端/Springboot/SpringBoot第一篇' },
+              { text: 'Vue', link: '/Java学习/后端/Vue/vue' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '项目实战',
+            items: [
+              { text: 'Java项目实战', link: '/Java学习/项目实战/项目实战' },
+            ],
+          },
+
+          {
+            // 分组标题4
+            text: '脚手架学习',
+            items: [
+              { text: '若依脚手架', link: '/Java学习/项目实战/项目实战' },
+            ],
+          },
+        ],
       },
 
       { text: '大数据',
@@ -100,16 +128,51 @@ export default defineConfig({
         ]
       },
 
-      { text: '知识库笔记',
-        items:[
-          {text:'博客',link:'/Java学习/搭建静态博客'},
-          {text:'Obsidian',link:'/Java学习/后端/SpringBoot/SpringBoot'},
-          {text:'Markdown',link:'/Markdown/时间线'},
-        ]
+
+
+      {
+        text: '知识库笔记',
+        items: [
+          {
+            // 分组标题1
+            text: '博客',
+            items: [
+              { text: '博客搭建', link: '/Java学习/搭建静态博客' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: 'Obsidian知识库笔记',
+            items: [
+              { text: 'Obsidian', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: 'Markdown语法学习',
+            items: [
+              { text: '时间线语法', link: '/Markdown/时间线' },
+            ],
+          },
+        ],
       },
 
       { text: '小凯', link: '/aboutme/' }
     ],
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
     socialLinks: [
       {
         icon: 'github',
