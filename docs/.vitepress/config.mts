@@ -167,8 +167,6 @@ export default defineConfig({
         ],
       },
 
-
-
       {
         text: '知识库笔记',
         items: [
@@ -177,6 +175,7 @@ export default defineConfig({
             text: '博客',
             items: [
               { text: '博客搭建', link: '/博客/搭建静态博客' },
+              { text: '博客搭建踩坑日志', link: '/博客/搭建博客踩坑日志' },
             ],
           },
           {
