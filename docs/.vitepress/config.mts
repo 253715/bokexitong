@@ -28,9 +28,13 @@ export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
 
+  // 忽略死链
+  ignoreDeadLinks: true,
+
   markdown: { 
     //行号显示
     lineNumbers: true, 
+
     
     // 配置 markdown-it-task-checkbox 插件
     config: (md) => {
