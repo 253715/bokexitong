@@ -137,7 +137,7 @@ export default defineConfig({
             // 分组标题1
             text: '博客',
             items: [
-              { text: '博客搭建', link: '/Java学习/搭建静态博客' },
+              { text: '博客搭建', link: '/博客/搭建静态博客' },
             ],
           },
           {
@@ -152,6 +152,40 @@ export default defineConfig({
             text: 'Markdown语法学习',
             items: [
               { text: '时间线语法', link: '/Markdown/时间线' },
+            ],
+          },
+        ],
+      },
+
+      {
+        text: '随笔记录',
+        items: [
+          {
+            // 分组标题1
+            text: '每天待办',
+            items: [
+              { text: '每日任务', link: '/随笔记录/待办' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '博客搭建时间线整理',
+            items: [
+              { text: '博客搭建完善', link: '/随笔记录/博客搭建时间线' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '朋友圈',
+            items: [
+              { text: '朋友圈', link: '/随笔记录/朋友圈' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '恋爱日记',
+            items: [
+              { text: '恋爱日常', link: '/随笔记录/恋爱日记' },
             ],
           },
         ],
