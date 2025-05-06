@@ -6,6 +6,15 @@ import { blogTheme } from './blog-theme'
 // 导入时间线
 import timeline from "vitepress-markdown-timeline";
 
+// 引入todo任务插件
+
+import markdownItTaskCheckbox from 'markdown-it-task-checkbox';
+
+// .vitepress/config.mts
+import taskLists from 'markdown-it-task-checkbox'
+
+
+
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
 // 如果项目名已经为 name.github.io 域名，则不需要修改！
@@ -22,16 +31,23 @@ export default defineConfig({
   markdown: { 
     //行号显示
     lineNumbers: true, 
+    
+    // 配置 markdown-it-task-checkbox 插件
+    config: (md) => {
+      // md.use(markdownItTaskCheckbox),
+      md.use(taskLists)
+      md.use(timeline) //todo
+    },
 
     image: {
       // 默认禁用；设置为 true 可为所有图片启用懒加载。
       lazyLoading: true
     },
 
-    //时间线 //
-    config: (md) => {
-      md.use(timeline);
-    },
+    // //时间线 //
+    // config: (md) => {
+    //   md.use(timeline);
+    // },
   },
 
   // 站点地图
