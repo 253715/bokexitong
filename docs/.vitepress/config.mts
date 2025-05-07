@@ -108,6 +108,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
 
+      { text: '导航页', link: 'https://vitepress-nav-template-main.vercel.app/nav/' },
         
       {
         text: 'Java',
