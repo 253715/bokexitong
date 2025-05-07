@@ -117,14 +117,29 @@ export default defineConfig({
             text: '基础知识',
             items: [
               { text: 'Java学习路线', link: '/Java学习/后端/Java学习' },
+              { text: 'JavaSE', link: '/Java学习/后端/Java学习' },
+              { text: 'MySQL', link: '/Java学习/后端/Java学习' },
+            ],
+          },
+
+          {
+            // 分组标题1
+            text: '构建|开发工具',
+            items: [
+              { text: 'Git', link: '/Java学习/后端/Java学习' },
+              { text: 'Maven', link: '/Java学习/后端/Java学习' },
+              { text: 'IDE', link: '/Java学习/后端/Java学习' },
+              { text: 'Nginx', link: '/Java学习/后端/Java学习' },
+              { text: 'Docker', link: '/Java学习/后端/Java学习' },
             ],
           },
           {
             // 分组标题2
-            text: '框架学习',
+            text: '中间件|框架学习',
             items: [
               { text: 'SpringBoot', link: '/Java学习/后端/Springboot/SpringBoot第一篇' },
               { text: 'Vue', link: '/Java学习/后端/Vue/vue' },
+              { text: 'Redis', link: '/Java学习/后端/Vue/vue' },
             ],
           },
           {
@@ -142,15 +157,76 @@ export default defineConfig({
               { text: '若依脚手架', link: '/Java学习/项目实战/项目实战' },
             ],
           },
+
+          {
+            // 分组标题1
+            text: '进阶学习',
+            items: [
+              { text: '设计模式', link: '/Java学习/后端/Java学习' },
+            ],
+          },
         ],
       },
 
-      { text: '大数据',
-        items:[
-          {text:'大数据学习路线',link:'/大数据/大数据学习路线'},
-          {text:'项目实战',link:'/Java学习/后端/SpringBoot/SpringBoot'},
-        ]
+      {
+        text: '大数据',
+        items: [
+          {
+            // 分组标题1
+            text: '基础知识',
+            items: [
+              {text:'大数据学习路线',link:'/大数据/大数据学习路线'},
+              {text:'Hadoop',link:'/大数据/大数据学习路线'},
+            ],
+          },
+
+          {
+            // 分组标题2
+            text: '数据采集',
+            items: [
+              { text: 'Datax', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: 'Sqoop', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '数仓学习',
+            items: [
+              { text: 'Hive', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: 'Spark', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: '数仓理论', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: 'Flink', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: '数据治理', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '调度|可视化',
+            items: [
+              { text: '调度工具', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: 'SQL练习',
+            items: [
+              { text: '基础题', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: '进阶题', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '项目实战',
+            items: [
+              {text:'项目实战',link:'/Java学习/后端/SpringBoot/SpringBoot'},
+            ],
+          },
+        ],
       },
+
+
+
+
       {
         text: 'Python',
         items: [
