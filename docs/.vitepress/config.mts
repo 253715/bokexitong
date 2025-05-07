@@ -269,14 +269,14 @@ export default defineConfig({
             // 分组标题2
             text: 'Obsidian知识库笔记',
             items: [
-              { text: 'Obsidian', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: 'Obsidian学习笔记', link: '/Java学习/后端/SpringBoot/SpringBoot' },
             ],
           },
           {
             // 分组标题3
             text: 'Markdown语法学习',
             items: [
-              { text: '时间线语法', link: '/Markdown/时间线' },
+              { text: '常用Markdown语法', link: '/Markdown/时间线' },
             ],
           },
         ],
@@ -294,9 +294,9 @@ export default defineConfig({
           },
           {
             // 分组标题2
-            text: '博客搭建时间线整理',
+            text: '时间线整理',
             items: [
-              { text: '博客搭建完善', link: '/随笔记录/博客搭建时间线' },
+              { text: '博客搭建时间线', link: '/随笔记录/博客搭建时间线' },
             ],
           },
           {
