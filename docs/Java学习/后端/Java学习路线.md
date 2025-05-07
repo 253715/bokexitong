@@ -9,6 +9,8 @@ title: Java学习路线
 ---
 # Java学习路线
 
+## 参考路线
+
 [二哥Java学习路线](https://javabetter.cn/xuexiluxian/java/yitiaolong.html)
 
 
@@ -51,10 +53,11 @@ title: Java学习路线
 ## Java学习重点
 
 
-![image.png](https://gitee.com/rising-silently/git/raw/master/img/20250430091722.png)
+![20250430091722.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250507160124792.png)
 
 
-![image.png](https://gitee.com/rising-silently/git/raw/master/img/20250430091753.png)
+![20250430091753.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250507160147888.png)
+
 
 [学习网址](https://javabetter.cn/home.html#java%E6%A0%B8%E5%BF%83)
 
