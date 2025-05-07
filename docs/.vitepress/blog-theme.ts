@@ -1,6 +1,8 @@
 // 主题独有配置
 import { getThemeConfig } from '@sugarat/theme/node'
 
+
+
 // 开启RSS支持（RSS配置）
 // import type { Theme } from '@sugarat/theme'
 
@@ -151,7 +153,10 @@ const blogTheme = getThemeConfig({
       inputPosition: 'top'
     },
     mobileMinify: true
-  }
+  },
+
+
+  
 
 
 

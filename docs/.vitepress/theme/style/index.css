@@ -6,3 +6,6 @@
 
 
 @import './hidden.css';
+
+/* 引用自定义块样式 */
+@import './custom-block.css';

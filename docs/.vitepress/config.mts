@@ -8,7 +8,7 @@ import timeline from "vitepress-markdown-timeline";
 
 // 引入todo任务插件
 
-import markdownItTaskCheckbox from 'markdown-it-task-checkbox';
+
 
 // .vitepress/config.mts
 import taskLists from 'markdown-it-task-checkbox'
@@ -27,6 +27,10 @@ import taskLists from 'markdown-it-task-checkbox'
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
+ 
+  
+
+  
 
   // 忽略死链
   ignoreDeadLinks: true,
@@ -84,6 +88,13 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇',
     },
+
+
+        //编辑本页 //
+        editLink: { 
+          pattern: 'https://github.com/253715/bokexitong/blob/main/docs/:path', // 改成自己的仓库
+          text: '在GitHub编辑本页'
+        },
 
     
 
@@ -231,19 +242,6 @@ export default defineConfig({
 
       { text: '小凯', link: '/aboutme/' }
     ],
-
-        
-
-
-
-
-
-
-
-
-
-
-
 
     socialLinks: [
       {
