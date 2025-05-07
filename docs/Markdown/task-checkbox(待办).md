@@ -2,7 +2,7 @@
 title: 待办
 tag: markdown
 readingTime: true
-comment: ['markdown',2]
+recomment: ['markdown',2]
 ---
 
 # 待办
