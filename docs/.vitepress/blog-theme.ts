@@ -128,7 +128,7 @@ const blogTheme = getThemeConfig({
       //   },
       //   link: 'https://theme.sugarat.top/group.html',
       // }
-      { type: 'text', content: '记录一下自己学习的内容' },
+      { type: 'text', content: '记录一下自己学习和生活中的所见所闻' },
     ],
     duration: 0
   },
