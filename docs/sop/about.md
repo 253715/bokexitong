@@ -1,5 +1,4 @@
 ---
-sticky: 1
 comment: true
 ---
 # 关于主题
