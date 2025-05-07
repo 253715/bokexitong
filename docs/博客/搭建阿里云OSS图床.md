@@ -4,8 +4,10 @@ tags:
 readingTime: true
 comment: true
 top: 2
-recommend: ['博客',2]
-title: 🔧 搭建阿里云oss图床
+recommend:
+  - 博客
+  - 2
+title: 搭建阿里云oss图床
 ---
 # 搭建阿里云OSS图床
 ## 搭建图床
