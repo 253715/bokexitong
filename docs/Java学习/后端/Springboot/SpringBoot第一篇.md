@@ -3,7 +3,6 @@ tags:
   - SpringBoot
 readingTime: true
 comment: true
-sticky: 1
 recommend: ['SpringBoot',1]
 ---
 
