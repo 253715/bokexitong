@@ -147,7 +147,8 @@ export default defineConfig({
             // 分组标题3
             text: '项目实战',
             items: [
-              { text: '用户中心项目', link: '/Java学习/后端/项目实战/用户中心项目' },
+              { text: '用户中心项目', link: '/Java学习/后端/项目实战/用户中心项目/用户中心项目概述' },
+              { text: '伙伴匹配系统', link: '/Java学习/后端/项目实战/伙伴匹配系统/伙伴匹配系统概述' },
             ],
           },
 
