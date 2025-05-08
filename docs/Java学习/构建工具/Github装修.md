@@ -4,7 +4,7 @@ tags:
   - Github
 readingTime: true
 date: 2025-05-08 16:30:59
-recommend: ['git',1]
+recommend: ['github',1]
 ---
 # Github装修
 
