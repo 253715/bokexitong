@@ -138,7 +138,7 @@ export default defineConfig({
             // 分组标题2
             text: '中间件|框架学习',
             items: [
-              { text: 'SpringBoot', link: '/Java学习/后端/Springboot/SpringBoot第一篇' },
+              { text: 'SpringBoot', link: '/Java学习/后端/Springboot/搭建第一个SpringBoot项目' },
               { text: 'Vue', link: '/Java学习/后端/Vue/vue' },
               { text: 'Redis', link: '/Java学习/后端/Vue/vue' },
             ],
