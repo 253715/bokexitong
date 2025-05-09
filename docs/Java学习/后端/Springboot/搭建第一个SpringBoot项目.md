@@ -16,25 +16,30 @@ recommend: ['SpringBoot','编程喵',1]
 ::: tip
 创建 Springboot 项目的方式有很多种(一般三种，yupi也讲过)，这里直接使用 IDEA 方式
 :::
-![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743839933121-8dfbc042-8951-44b1-a0c3-c18cfbe77439.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112038467.png)
+
 
 ## 目录结构
 
-![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743839971871-d172f91f-a16e-43f3-ad77-3f186b52a3ec.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112059146.png)
+
 
 可以使用 `tree -CfL 3` 命令以树状图列出目录的内容：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743839993373-088f80f7-7e9b-4f38-bdfd-36ad80864deb.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112111574.png)
+
 
 注意：windows 上直接输入 tree
 
-![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743840072189-aff84044-749e-46a1-8f47-df4831b9139f.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112122302.png)
 
 ## 启动 Springboot 项目
 
 ### 本地启动方式
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112206050.png)
 
-![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-06.png&sign=ccd9f791b1e29dd8e570f3337c080895570716c57d6668559b8ca13cfde6ac7b)
+
+
 
 ### 服务器启动方式
 
@@ -56,17 +61,20 @@ recommend: ['SpringBoot','编程喵',1]
 </build>
 ```
 
-![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-08.png&sign=f895ea77fde31f910d8d081cc13527ff735cc45cf26cc460b417c8d419f3ef0a)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112236595.png)
+
 
 2. 将 jar 包上传到服务器上
 
-![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-10.png&sign=ae0488b76a0af6469da37b6af2b210119bd728532fb77a8a1f3e3289a26bb038)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112253088.png)
+
 
 3. 执行运行命令
 
 java -jar tobebetterjavaer-0.0.1-SNAPSHOT.jar 命令
 
-![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-11.png&sign=c753d7adc4b4730c29dbb90be975b4b235ee9387abdfcf59cd263ad8cd18bcc2)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112311017.png)
+
 
 ## 热部署
 
@@ -86,4 +94,5 @@ java -jar tobebetterjavaer-0.0.1-SNAPSHOT.jar 命令
 
 由于 Intellij IDEA 是自动保存的，所以默认情况下，Intellij IDEA 的实时编译是关闭的（建议不要打开，否则已修改就编译，挺废内存的），我们需要**手动点一下 build 按钮**。
 
-![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-55098eb9-1809-460d-9d2a-730da24e73c0.png&sign=5b6f1ae973823170426e16b9b9e32ffecddab2b1e00cd4d80c25cb1e218075b5)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250509112337326.png)
+
