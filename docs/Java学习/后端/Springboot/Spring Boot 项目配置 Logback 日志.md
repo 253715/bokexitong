@@ -150,7 +150,7 @@ static Logger logger = LoggerFactory.getLogger(CodingmoreLogbackApplicationTests
 这样的样板代码令人生厌！  
 我们可以通过 **lombok 的方式来解决这个问题，在 pom.xml 文件中加入依赖。**
 
-<font color="#ff0000">**使用 @Slf4j 注解+log**</font>
+**<font color="#ff0000">使用 @Slf4j 注解+log</font>**
 
 ```Java
 <dependency>
