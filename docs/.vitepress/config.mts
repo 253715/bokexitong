@@ -255,6 +255,25 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: '提效工具',
+        items: [
+          {
+            // 分组标题1
+            text: '代码生成器',
+            items: [
+              { text: 'MybatisX插件', link: '/Java学习/后端/Java学习' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: 'Ai辅助工具',
+            items: [
+              { text: 'cursor', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+        ],
+      },
 
       {
         text: '知识库笔记',
