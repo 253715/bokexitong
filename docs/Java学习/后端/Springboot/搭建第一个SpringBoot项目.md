@@ -8,3 +8,82 @@ recommend: ['SpringBoot','编程喵',1]
 ---
 
 # 搭建第一个SpringBoot项目
+
+## 参考教程
+
+>[搭建第一个Spring Boot项目](https://www.yuque.com/itwanger/vn4p17/qpgp46#NA9Hw)
+
+::: tip
+创建 Springboot 项目的方式有很多种(一般三种，yupi也讲过)，这里直接使用 IDEA 方式
+:::
+![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743839933121-8dfbc042-8951-44b1-a0c3-c18cfbe77439.png)
+
+## 目录结构
+
+![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743839971871-d172f91f-a16e-43f3-ad77-3f186b52a3ec.png)
+
+可以使用 `tree -CfL 3` 命令以树状图列出目录的内容：
+
+![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743839993373-088f80f7-7e9b-4f38-bdfd-36ad80864deb.png)
+
+注意：windows 上直接输入 tree
+
+![](https://cdn.nlark.com/yuque/0/2025/png/26027752/1743840072189-aff84044-749e-46a1-8f47-df4831b9139f.png)
+
+## 启动 Springboot 项目
+
+### 本地启动方式
+
+![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-06.png&sign=ccd9f791b1e29dd8e570f3337c080895570716c57d6668559b8ca13cfde6ac7b)
+
+### 服务器启动方式
+
+1. 打包
+
+那如果想把项目打成 jar 包放到服务器上，以 **java -jar xxx.jar** 形式运行的话，该怎么做呢？  
+打开 Terminal 终端， 执行命令 **mvn clean package**，等待打包结果。
+
+需要在 pom 中引入打包插件
+
+```
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</build>
+```
+
+![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-08.png&sign=f895ea77fde31f910d8d081cc13527ff735cc45cf26cc460b417c8d419f3ef0a)
+
+2. 将 jar 包上传到服务器上
+
+![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-10.png&sign=ae0488b76a0af6469da37b6af2b210119bd728532fb77a8a1f3e3289a26bb038)
+
+3. 执行运行命令
+
+java -jar tobebetterjavaer-0.0.1-SNAPSHOT.jar 命令
+
+![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-11.png&sign=c753d7adc4b4730c29dbb90be975b4b235ee9387abdfcf59cd263ad8cd18bcc2)
+
+## 热部署
+
+作为开发者，我们希望每次修改代码后，代码能够自动编译，服务能够自动重新加载，这样就省去了重新运行代码的烦恼。  
+那 **spring-boot-devtools** 就是这样的一个神器，当我们把它**添加到项目当中后，无论是代码修改，还是配置文件修改，服务都能够秒级重载（俗称热部署），这在我们开发的时候，非常有用。**
+
+### 添加依赖
+
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+```
+
+**修改完代码后点击 build 就可以了，不需要重新启动**
+
+由于 Intellij IDEA 是自动保存的，所以默认情况下，Intellij IDEA 的实时编译是关闭的（建议不要打开，否则已修改就编译，挺废内存的），我们需要**手动点一下 build 按钮**。
+
+![](https://www.yuque.com/api/filetransfer/images?url=http%3A%2F%2Fcdn.tobebetterjavaer.com%2Ftobebetterjavaer%2Fimages%2Fspringboot%2Finitializr-55098eb9-1809-460d-9d2a-730da24e73c0.png&sign=5b6f1ae973823170426e16b9b9e32ffecddab2b1e00cd4d80c25cb1e218075b5)
