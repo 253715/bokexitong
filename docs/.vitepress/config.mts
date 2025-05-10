@@ -213,6 +213,7 @@ export default defineConfig({
             text: 'SQL练习',
             items: [
               { text: '基础题', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+              { text: '十大专题', link: '/Java学习/后端/SpringBoot/SpringBoot' },
               { text: '进阶题', link: '/Java学习/后端/SpringBoot/SpringBoot' },
             ],
           },
