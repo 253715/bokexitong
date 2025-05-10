@@ -118,7 +118,7 @@ export default defineConfig({
             text: '基础知识',
             items: [
               { text: 'Java学习路线', link: '/Java学习/后端/Java学习路线' },
-              { text: 'JavaSE', link: '/Java学习/后端/Java学习' },
+              { text: 'JavaSE', link: '/Java学习/后端/JavaSE/Java概述' },
               { text: 'MySQL', link: '/Java学习/后端/Java学习' },
             ],
           },
