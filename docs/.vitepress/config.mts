@@ -264,7 +264,7 @@ export default defineConfig({
             // 分组标题1
             text: '代码生成器',
             items: [
-              { text: 'MybatisX插件', link: '/Java学习/后端/Java学习' },
+              { text: 'MybatisX插件', link: '/提效工具/代码生成器/MybatisX插件' },
             ],
           },
           {
