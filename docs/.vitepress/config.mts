@@ -140,7 +140,7 @@ export default defineConfig({
             items: [
               { text: 'SpringBoot', link: '/Java学习/后端/Springboot/搭建第一个SpringBoot项目' },
               { text: 'Vue', link: '/Java学习/后端/Vue/vue' },
-              { text: 'Redis', link: '/Java学习/后端/Vue/vue' },
+              { text: 'Redis', link: '/Java学习/后端/redis/redis学习路线' },
             ],
           },
           {
