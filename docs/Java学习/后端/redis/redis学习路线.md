@@ -53,8 +53,6 @@ recommend: ['redis',1]
 
 ### 文档
 
-### [文档](https://javabetter.cn/xuexiluxian/redis.html#%E6%96%87%E6%A1%A3)
-
 任何时候，[官方的文档](https://www.redis.net.cn/tutorial/3501.html)都是非常值得去参考和学习的。
 
 
