@@ -78,6 +78,12 @@ recommend: ['redis',1]
 
 ![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250511093450411.png)
 
+### 项目实战
+
+黑马点评
+>1. [视频地址](https://www.bilibili.com/video/BV1NV411u7GE/?spm_id_from=333.337.search-card.all.click&vd_source=2074845aa36e291c34caa4671c3b2eda)
+>2. 文档就是那个[黑马redis](https://www.bilibili.com/video/BV1cr4y1671t/?spm_id_from=333.337.search-card.all.click&vd_source=31f382886b368673a25ce3ff23e82bfc)里面的文档，是那个里面独立出来的一个项目
+
 ## 学习建议
 
 在学习 Redis 时，最常见的需求有三个方面。
