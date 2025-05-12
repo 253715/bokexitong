@@ -267,6 +267,13 @@ export default defineConfig({
               { text: 'MybatisX插件', link: '/提效工具/代码生成器/MybatisX插件' },
             ],
           },
+           {
+            // 分组标题1
+            text: '开发插件',
+            items: [
+              { text: 'IDEA热部署插件', link: '/提效工具/开发插件/IDEA配置JRebel热部署' },
+            ],
+          },
           {
             // 分组标题2
             text: 'Ai辅助工具',
