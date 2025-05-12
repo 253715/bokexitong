@@ -3,7 +3,7 @@ tags:
   - IDEA
   - 开发插件
 readingTime: true
-date: 2025-05-11 21:53:45
+date: 2025-05-12 20:03:57
 recommend: ['开发插件',1]
 ---
 # IDEA配置JRebel热部署
