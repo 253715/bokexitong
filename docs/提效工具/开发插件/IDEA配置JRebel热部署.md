@@ -68,6 +68,9 @@ http://127.0.0.1:8888/{GUID}
 设置成功结果如下图
 
 ![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250512194716754.png)
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250512195603729.png)
+
 ### 2.  设置自动编译
 
 打开`File`—>`Settings`—>`Build,Execution,Deployment`—>`Compiler`—>`勾选Build project automatically`
@@ -107,3 +110,8 @@ http://127.0.0.1:8888/{GUID}
 **启动项目后控制台输出如下内容即为热部署已生效**
 
 ![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250512195100900.png)
+
+> 我的是2025.2.1 版本插件，IDEA是2023版，目测可以生效
+
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250512200134496.png)
