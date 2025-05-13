@@ -2,7 +2,7 @@
 layout: home
 # 首页部分元素定制
 blog:
- name: '小凯的个人空间'
+ name: '小凯的个人成长'
  motto: 为自己热爱的事业奋斗终生
  inspiring:
   - 基于 Vitepress 定制的主题🎨
