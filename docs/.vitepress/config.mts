@@ -64,7 +64,7 @@ export default defineConfig({
   },
   // base,
   lang: 'zh-cn',
-  title: '小凯的个人空间',
+  title: '小凯的个人成长',
   description: '从来没有真正的绝境，只有心灵的迷途',
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
