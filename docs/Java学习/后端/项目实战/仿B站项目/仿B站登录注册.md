@@ -62,7 +62,89 @@ CREATE TABLE `user_info` (
 > 数据库设计首先是要看原型，参考别人的页面，然后就是看看页面上有哪些字段，然后就是先把表建立起来，一开始肯定是不容易想全的，然后等后面有具体的需求了，我们在进行完善表格
 ## 代码生成器
 
+>我们将表建立好之后，我们就可以使用代码生成器来生成一些通用的代码了
 
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513142815020.png)
+
+### 修改代码生成的位置
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513142938210.png)
+### 修改数据库配置
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513143013191.png)
+
+### 生成代码
+
+::: danger⚠️
+这里面运行代码生成器的版本必须是jdk8  不能是17 否则就是会报错  **【java】【经验】java: 错误: 不支持发行版本 6**
+解决方法
+https://blog.csdn.net/legend818/article/details/132180334
+:::
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513143908593.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513143921927.png)
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513143932551.png)
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513143947230.png)
+
+
+### 复制代码
+#### 1. 复制实体类等
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513144550457.png)
+
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513144525032.png)
+
+#### 2. 复制controller类
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513144701332.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513144803544.png)
+
+#### 3. 复制xml
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513145017029.png)
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513145031114.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513145118983.png)
+
+修改包名
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513145436734.png)
+
+::: danger ⚠️
+当然这里我生成的时候没有指定包名，也就是包名没有修改，所以这里所有的生成文件复制完成之后需要进行修改包名
+:::
+
+### 运行
+>我们发现报错了
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513145825987.png)
+
+> 这里是因为我们没有设置包扫描
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513150734423.png)
+
+这样就可以找到了成功启动了
+
+### 测试接口
+
+接口一般都是在controller类中
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513150953538.png)
+
+
+::: danger⚠️注意
+
+这里测试没有成功，犯了一个很大的错误，就是resources目录下的包名不对
+
+:::
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513164358684.png)
+
+
+这个包名改好之后测试成功
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250513164415641.png)
 
 ## 一个插件 JSON-handle  
 
