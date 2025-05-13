@@ -2,6 +2,7 @@
 description: 默认支持流程图，tabs面板，待办列表，作品页面
 tag:
  - SOP
+comment: false
 ---
 
 # 内置第三方插件能力
