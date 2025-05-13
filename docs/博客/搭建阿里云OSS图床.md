@@ -2,7 +2,7 @@
 tags:
   - 图床
 readingTime: true
-comment: true
+comment: false
 top: 2
 recommend:
   - 博客

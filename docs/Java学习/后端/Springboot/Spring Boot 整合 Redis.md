@@ -3,7 +3,7 @@ tags:
   - SpringBoot
   - 编程喵
 readingTime: true
-comment: true
+comment: false
 date: 2025-05-10 13:36:53
 recommend: ['SpringBoot','编程喵',10]
 ---

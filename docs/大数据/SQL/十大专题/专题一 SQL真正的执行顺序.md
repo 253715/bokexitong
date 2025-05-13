@@ -2,7 +2,7 @@
 tags:
   - SQL
 readingTime: true
-comment: true
+comment: false
 date: 2025-05-10 09:59:23
 recommend: ['SQL',1]
 ---

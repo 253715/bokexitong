@@ -2,7 +2,7 @@
 tags:
   - vue
 readingTime: true
-comment: true
+comment: false
 recommend: ['vue',1]
 ---
 
