@@ -86,3 +86,6 @@ date: 2025-05-31 19:52:04
 ### 清除占位符
 
 - 视图->幻灯片母版->把当前版面下所有的元素都选中，然后删掉搞定
+
+## 总结
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250531203314109.png)
