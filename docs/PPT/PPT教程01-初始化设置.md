@@ -7,7 +7,7 @@ recommend: PPT
 title: PPT教程01
 date: 2025-05-31 19:52:04
 ---
-
+# PPT教程01-初始化设置
 ## 视频教程
 
 [b站第一](https://www.bilibili.com/video/BV1w54y1Q7cZ/?spm_id_from=333.337.search-card.all.click&vd_source=2074845aa36e291c34caa4671c3b2eda)
