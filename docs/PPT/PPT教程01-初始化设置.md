@@ -4,7 +4,7 @@ tags:
 readingTime: true
 comment: false
 recommend: PPT
-title: PPT教程01
+title: PPT教程01-初始化设置
 date: 2025-05-31 19:52:04
 ---
 # PPT教程01-初始化设置
