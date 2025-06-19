@@ -4,7 +4,7 @@ tags:
 readingTime: true
 comment: false
 date: 2025-06-19 10:40:03
-recommend:  ['Maven基础',2]
+recommend:  ['Maven基础',1]
 ---
 # Maven基础
 
