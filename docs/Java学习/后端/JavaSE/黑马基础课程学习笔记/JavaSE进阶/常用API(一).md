@@ -78,3 +78,12 @@ recommend:  ['JavaSE进阶',4]
 ![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250619215728828.png)
 
 ![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250619220142847.png)
+
+## 时间类API 
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250620092604249.png)
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250620092749162.png)
+
+> 首先构建对象，然后通过对象来调取方法来获取其中的时间
+
