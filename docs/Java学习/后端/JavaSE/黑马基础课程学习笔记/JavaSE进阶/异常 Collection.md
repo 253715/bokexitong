@@ -8,3 +8,40 @@ recommend:  ['JavaSE进阶',6]
 ---
 # 异常 Collection
 
+## 什么是异常
+
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110533315.png)
+
+## 异常类型
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110602800.png)
+
+> 运行时异常 
+> 编译时异常
+
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110640504.png)
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110654076.png)
+## 异常有什么作用
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110740293.png)
+## 自定义异常
+
+>Java也不可能为世界上所有的事情都制定异常
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110840881.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621110920454.png)
+
+- 继承 RuntimeException 或者 Exception
+- 重写构造器
+- throw new 抛出异常    
+
+## 异常的处理方式
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621111121455.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621111158028.png)
+
+>在开发中的处理方式是底层的异常抛出给最外层，最外层集中捕获处理异常
+
+# 集合
