@@ -45,3 +45,36 @@ recommend:  ['JavaSE进阶',6]
 >在开发中的处理方式是底层的异常抛出给最外层，最外层集中捕获处理异常
 
 # 集合
+## 集合体系
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621111601393.png)
+
+## Collection体系
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621111728368.png)
+### Collection常用方法
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621111833196.png)
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621111909365.png)
+### 迭代器
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621112015219.png)
+### 迭代器执行流程
+![PixPin_2025-06-21_11-24-25.gif](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621112448573.gif)
+
+### 增强for循环
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621112724363.png)
+### Lamada表达式遍历
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621113023328.png)
+## List集合
+>collection 分为 List 和 set
+
+### 常用方法
+
+![image.png](https://imgsbo.oss-cn-shanghai.aliyuncs.com/undefined20250621113249783.png)
+
+
+
+
+
