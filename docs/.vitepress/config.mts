@@ -258,6 +258,62 @@ export default defineConfig({
           },
         ],
       },
+
+
+      {
+        text: '测试',
+        items: [
+          {
+            // 分组标题1
+            text: '软件测试',
+            items: [
+              { text: '软件测试学习路线', link: '/测试/软件测试/软件测试学习路线' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '自动化测试',
+            items: [
+              { text: '自动化测试', link: '/测试/自动化测试/自动化测试学习路线' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '性能测试',
+            items: [
+              { text: '数据分析', link: '/Markdown/时间线' },
+            ],
+          },
+        ],
+      },
+
+            {
+        text: '人工智能',
+        items: [
+          {
+            // 分组标题1
+            text: '基础知识',
+            items: [
+              { text: 'Python学习路线', link: '/Java学习/后端/Java学习' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '爬虫',
+            items: [
+              { text: '爬虫学习', link: '/Java学习/后端/SpringBoot/SpringBoot' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '数据分析',
+            items: [
+              { text: '数据分析', link: '/Markdown/时间线' },
+            ],
+          },
+        ],
+      },
+
       {
         text: '提效工具',
         items: [
